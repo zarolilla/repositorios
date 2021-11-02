@@ -1,0 +1,12 @@
+{
+  "name": "2.ejercicio-html-2",
+  "version": "1.0.0",
+  "description": "Edita el fichero `index.html` para que tenga muestre un formulario con las siguientes características:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

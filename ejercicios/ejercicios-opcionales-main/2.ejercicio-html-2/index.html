@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio HTML 2</title>
+    <link rel="stylesheet" href="hamburguesa.css" />
+  </head>
+
+<body>
+   <form>
+    <fieldset>
+      <H1>PERSONALIZA TU HAMBURGUESA</H1>
+      <h2>ingredientes</h2>
+      <ul class="lista1">
+        <li>
+          
+          <input type="checkbox" id="queso">Queso
+          <label for="queso"></label>
+
+        </li>
+        <li>
+          <input type="checkbox" id="bacon">bacon
+          <label for="bacon"></label>
+        </li>
+        <li>
+          <input type="checkbox" id="tomate">tomate</li>
+          <label for="huevo"></label>
+        <li>
+          <input type="checkbox" id="huevo">huevo</li>
+          <label for="lechuga"></label>
+        <li><input type="checkbox" id="lechuga">lechuga</li>
+      </ul>
+        <h2>tamaño</h2>
+      <ul class="lista2">
+        <li><input type="radio" id="tamaño">Pequeño</li>
+        <li><input type="radio" id="tamaño">Mediano</li>
+        <li><input type="radio" id="tamaño">Grande</li>
+      </ul>
+      
+    </fieldset>
+       
+    <fieldset>
+      <h1>DATOS DE ENTREGA</h1>
+      <ul>
+        <li class="nombre">
+          <label for="user" id="entrega">Nombre</label>
+          <input type="text" id="user">
+        </li>
+        
+        <li class="direccion">
+          <label for="direction">Direccion</label>
+          <input type="text" id="direction">
+        </li>
+        <li class="telefono">
+          
+          <input type="tel" id="Telefono">
+          <label for="Telefono">Telefono</label>
+        </li>
+        <li>
+          <label>Instruciones especiales</label>
+          <textarea name="rellenar" cols="30" rows="10" placeholder="Sin tomate"></textarea>
+        </li>
+        
+      </ul>
+
+    </fieldset>
+      
+    <fieldset>
+      <label>METODO DE PAGO</label> 
+       <select name="pago">
+         <option value="tarjeta">Tarjeta de credito</option>
+         <option value="efectivo">Efectivo</option>
+         <option value="paypal">Paypal</option>
+         <option value="sinpa">hacer un sinpa</option>
+      </select>
+    </fieldset> 
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
